@@ -1,5 +1,5 @@
 #include "jugador.h"
-#include "enemigo.h"
+#include "base.h"
 #include <iostream>
 #include <ctime>   // Función time() para generar una nueva seed aleatoria.
 using namespace std;
@@ -13,6 +13,7 @@ int main()
 
     Jugador j1(100, 10, "Mario");
     Jugador j2(100, 10, "Carlos");
+    Base enemigo();
 
     while (j1.vida > 0 && j2.vida > 0)
     {
